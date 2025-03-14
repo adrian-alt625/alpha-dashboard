@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Rubik;
+  src: url(fonts/Rubik-Regular.ttf);
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+}
+
+#dashboard-heading {
+  color: rgb(243, 243, 243);
+  margin-left: 7%;
+  margin-top: 4%;
+}
+#total-heading {
+  color: rgb(128, 128, 128);
+  margin-top: 70px;
+  margin-left: 8%;
+}
+#total-profit {
+  color: rgb(242, 242, 242);
+  margin-left: 8%;
+  font-size: 50px;
+  margin-top: -10px;
+}
+#slider-container {
+  display: flex;
+  position: relative;
+  background: rgb(36, 36, 36);
+  width: 225px;
+  height: 40px;
+  margin-left: 50%;
+  padding: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: center;
+  margin-top: -20px;
+}
+.slider {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 75px;
+  height: 80%;
+  border-radius: 8px;
+  transition: 0.3s;
+  background-color: rgb(48, 48, 48);
+  transform: translateX(0);
+}
+.option {
+  flex: 1;
+  text-align: center;
+  z-index: 2;
+  color: rgb(223, 223, 223);
+  cursor: pointer;
+  user-select: none;
+}

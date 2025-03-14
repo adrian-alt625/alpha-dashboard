@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="dashboard-heading">Dashboard</h1>
+    <!-- slider -->
+    <div id="slider-container">
+      <div class="slider"></div>
+      <div class="option" onclick="moveSlider(0)">all-time</div>
+      <div class="option" onclick="moveSlider(1)">7 day</div>
+      <div class="option" onclick="moveSlider(2)">24 hr</div>
+    </div>
+    <!-- slider -->
+    <h4 id="total-heading">Total P/L</h4>
+    <h2 id="total-profit">17.5%</h2>
+    <script src="script.js" defer></script>
+  </body>
+</html>
